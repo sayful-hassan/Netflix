@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/NavBar/NavBar';
+import NavBar from './Components/NavBar/NavBar';
 import Banner from './Components/Banner/Banner';
 
 
@@ -12,7 +12,7 @@ import Banner from './Components/Banner/Banner';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <NavBar/>
       <Banner/>
 
     </div>
