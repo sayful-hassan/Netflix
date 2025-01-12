@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import Banner from './Components/Banner/Banner';
 import RowPost from './Components/RowPost/RowPost';
+import {Originals,Action} from './urls'
 
 
 
@@ -15,7 +16,9 @@ function App() {
     <div className="App">
       <NavBar/>
       <Banner/>
-      <RowPost />
+      <RowPost url={Originals} title='Netflix Originals'/>
+      <RowPost url={Action} title='Action' isSmall />
+
 
     </div>
   );
